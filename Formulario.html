@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ES">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,14 @@
     <link rel="icon" href="Images/accounting.png">
     <title>Calculadora Online</title>
 </head>
+
 <body style="min-height: 100vh; background-color: rgb(69, 63, 110); display: grid; place-items: center;">
-    <div style="background-color: rgb(244, 244, 244); display: grid; grid-template-columns: repeat(4, 1fr); width: 230px; max-width: 100%; padding: 1.5rem; border-radius: 1rem; gap: .5rem;" class="contenedorCal">
-        <div style="grid-column: 1/5; background-color: rgb(225, 227, 252); padding: 1.5rem;font-size: 2rem;text-align: right; border-radius: .5rem; margin-bottom: 1rem; font-family: monospace; font-weight: 600;" class="Pantalla">0</div>
-        <button class="btn">C</button>
-        <button class="btn">←</button>
+    <div style="background-color: rgb(244, 244, 244); display: grid; grid-template-columns: repeat(4, 1fr); width: 230px; max-width: 100%; padding: 1.5rem; border-radius: 1rem; gap: .5rem;"
+        class="contenedorCal">
+        <div style="grid-column: 1/5; background-color: rgb(225, 227, 252); padding: 1.5rem;font-size: 2rem;text-align: right; border-radius: .5rem; margin-bottom: 1rem; font-family: monospace; font-weight: 600;"
+            class="pantalla">0</div>
+        <button id="c" class="btn">C</button>
+        <button id="borrar" class="btn">←</button>
         <button class="btn">/</button>
         <button class="btn">*</button>
         <button class="btn">7</button>
@@ -29,5 +33,7 @@
         <button id="cero" class="btn">0</button>
         <button class="btn">.</button>
     </div>
+    <script src="./Calculadora.js"></script>
 </body>
+
 </html>
